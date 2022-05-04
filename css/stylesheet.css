@@ -15,6 +15,14 @@ body {
     background-color: #774c18;
 }
 
+#Name_Title {
+    width: 1024px;
+    height: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #nav {
     width: 1024px;
     height: 70px;
@@ -25,6 +33,26 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.Intro_Text {
+    display: flex;
+    justify-content: center;
+}
+
+#Intro_Heading {
+    height: 35px;
+    width: 660px;
+    display: flex;
+    justify-content: center;
+}
+
+#Intro_Text {
+    height: 130px;
+    width: 660px;
+    display: flex;
+    justify-content: center;
+
 }
 
 #intro {
