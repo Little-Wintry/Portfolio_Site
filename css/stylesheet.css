@@ -9,10 +9,17 @@ body {
 
 }
 
-#header {
-    width: 1024px;
+#header_brown {
+    width: 512px;
     height: 233px;
     background-color: #774c18;
+}
+
+#header_green {
+    width: 512px;
+    height: 233px;
+    background-color: #1b9647;
+    transform: translate(512px, -233px)
 }
 
 #Name_Title {
@@ -20,7 +27,11 @@ body {
     height: 233px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
+}
+
+.below_the_nav {
+    transform: translate(0px, -257px);
 }
 
 #nav {
