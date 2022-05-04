@@ -21,6 +21,12 @@ body {
     background-color: #f9cf00;
 }
 
+#nav_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 #intro {
     height: 1000px;
 }
