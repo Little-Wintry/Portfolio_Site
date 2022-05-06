@@ -59,6 +59,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     border: solid 1px black;
 }
 
@@ -70,7 +71,8 @@ ul {
     display: flex;
     justify-content: center;
     border: solid 1px black;
-    margin-left: 64px;
+    margin-left: 20px;
+    
 }
 
 #Intro_Heading {
@@ -78,7 +80,7 @@ ul {
     width: 660px;
     display: flex;
     justify-content: center;
-    margin-top: 64px;
+    margin-top: 20px;
     border: solid 1px black;
 }
 
@@ -94,12 +96,17 @@ ul {
     height: 300px;
     width: 256px;
     border: solid 1px black;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
 }
 
 #intro {
     width: 1024px;
     height: 1000px;
     border: solid 1px black;
+    display: flex;
+    flex-direction: row;
 }
 
 #contact {
