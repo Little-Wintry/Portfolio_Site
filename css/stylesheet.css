@@ -26,7 +26,7 @@ body {
     width: 512px;
     height: 233px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -34,7 +34,7 @@ body {
     width: 512px;
     height: 233px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -67,7 +67,7 @@ body {
     width: 660px;
     display: flex;
     justify-content: center;
-
+    margin-left: 32px;
 }
 
 #intro {
