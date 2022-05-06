@@ -72,7 +72,6 @@ ul {
     justify-content: center;
     border: solid 1px black;
     margin-left: 20px;
-    
 }
 
 #Intro_Heading {
@@ -80,7 +79,7 @@ ul {
     width: 660px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 60px;
     border: solid 1px black;
 }
 
@@ -88,8 +87,8 @@ ul {
     height: 130px;
     width: 660px;
     display: flex;
-    justify-content: center;
     border: solid 1px black;
+    flex-direction: column;
 }
 
 #profile_pic {
@@ -98,7 +97,7 @@ ul {
     border: solid 1px black;
     background-color: aqua;
     display: flex;
-    justify-content: center;
+    margin: 20px;
 }
 
 #intro {
