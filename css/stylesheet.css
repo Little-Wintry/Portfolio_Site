@@ -19,11 +19,19 @@ body {
     width: 512px;
     height: 233px;
     background-color: #1b9647;
-    transform: translate(512px, -233px)
+    transform: translate(512px, -276px);
 }
 
-#Name_Title {
-    width: 1024px;
+#first_name {
+    width: 512px;
+    height: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last_name {
+    width: 512px;
     height: 233px;
     display: flex;
     justify-content: center;
