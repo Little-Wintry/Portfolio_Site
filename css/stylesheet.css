@@ -58,7 +58,7 @@ body {
 #nav_text {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border: solid 1px black;
 }
 
@@ -70,7 +70,7 @@ ul {
     display: flex;
     justify-content: center;
     border: solid 1px black;
-    margin-left: 32px;
+    margin-left: 64px;
 }
 
 #Intro_Heading {
@@ -78,6 +78,7 @@ ul {
     width: 660px;
     display: flex;
     justify-content: center;
+    margin-top: 64px;
     border: solid 1px black;
 }
 
@@ -86,11 +87,17 @@ ul {
     width: 660px;
     display: flex;
     justify-content: center;
-    
+    border: solid 1px black;
+}
+
+#profile_pic {
+    height: 300px;
+    width: 256px;
     border: solid 1px black;
 }
 
 #intro {
+    width: 1024px;
     height: 1000px;
     border: solid 1px black;
 }
