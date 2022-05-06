@@ -6,20 +6,21 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 #header_brown {
     width: 512px;
     height: 233px;
     background-color: #774c18;
+    border: solid 1px black;
 }
 
 #header_green {
     width: 512px;
     height: 233px;
     background-color: #1b9647;
-    transform: translate(512px, -233px);
+    /* transform: translate(512px, -233px); */
+    border: solid 1px black;
 }
 
 #first_name {
@@ -28,6 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 1px black;
 }
 
 #last_name {
@@ -36,23 +38,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 1px orange;
 }
 
 #nav {
     width: 1024px;
     height: 70px;
     background-color: #f9cf00;
+    border: solid 1px black;
 }
 
 #nav_text {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border: solid 1px black;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .Intro_Text {
     display: flex;
     justify-content: center;
+    border: solid 1px black;
+    margin-left: 32px;
 }
 
 #Intro_Heading {
@@ -60,6 +71,7 @@ body {
     width: 660px;
     display: flex;
     justify-content: center;
+    border: solid 1px black;
 }
 
 #Intro_Text {
@@ -67,11 +79,13 @@ body {
     width: 660px;
     display: flex;
     justify-content: center;
-    margin-left: 32px;
+    
+    border: solid 1px black;
 }
 
 #intro {
     height: 1000px;
+    border: solid 1px black;
 }
 
 #contact {
@@ -80,10 +94,12 @@ body {
     background-color: #f9cf00;
     margin-left: 32px;
     margin-bottom: 32px;
+    border: solid 1px black;
 }
 
 #footer {
     height: 180px;
     width: 1024px;
     background-color: #1b9647;
+    border: solid 1px black;
 }
