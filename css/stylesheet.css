@@ -37,6 +37,7 @@ body {
     border: solid 1px black;
     margin-top: -1px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
 }
 
 #last_name {
@@ -48,6 +49,7 @@ body {
     border: solid 1px black;
     margin-top: -1px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
 }
 
 #nav {
@@ -124,6 +126,10 @@ ul {
     margin-left: 20px;
 }
 
+#contact_header {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #footer {
     height: 180px;
     width: 1024px;
@@ -133,4 +139,8 @@ ul {
 
 .footer_text {
     margin-left: 20px;
+}
+
+#footer_header {
+    font-family: 'Courier New', Courier, monospace;
 }
