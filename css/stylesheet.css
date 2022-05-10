@@ -112,9 +112,12 @@ ul {
     width: 960px;
     height: 200px;
     background-color: #f9cf00;
-    margin-left: 32px;
-    margin-bottom: 32px;
+    margin: 32px;
     border: solid 1px black;
+}
+
+.contact_text {
+    margin-left: 20px;
 }
 
 #footer {
@@ -122,4 +125,8 @@ ul {
     width: 1024px;
     background-color: #1b9647;
     border: solid 1px black;
+}
+
+.footer_text {
+    margin-left: 20px;
 }
