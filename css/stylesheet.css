@@ -36,6 +36,7 @@ body {
     align-items: center;
     border: solid 1px black;
     margin-top: -1px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #last_name {
@@ -46,6 +47,7 @@ body {
     align-items: center;
     border: solid 1px black;
     margin-top: -1px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #nav {
@@ -58,9 +60,10 @@ body {
 #nav_text {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border: solid 1px black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 ul {
@@ -81,6 +84,7 @@ ul {
     justify-content: center;
     margin-top: 60px;
     border: solid 1px black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #Intro_Text {
