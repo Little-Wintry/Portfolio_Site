@@ -124,10 +124,12 @@ ul {
 
 .contact_text {
     margin-left: 20px;
+    border: solid 1px black;
 }
 
 #contact_header {
     font-family: 'Courier New', Courier, monospace;
+    border: solid 1px black;
 }
 
 #footer {
@@ -135,12 +137,15 @@ ul {
     width: 1024px;
     background-color: #1b9647;
     border: solid 1px black;
+    border: solid 1px black;
 }
 
 .footer_text {
     margin-left: 20px;
+    border: solid 1px black;
 }
 
 #footer_header {
     font-family: 'Courier New', Courier, monospace;
+    border: solid 1px black;
 }
