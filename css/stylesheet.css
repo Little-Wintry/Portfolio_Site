@@ -108,10 +108,15 @@ ul {
 
 #intro {
     width: 1024px;
-    height: 1000px;
+    height: 340px;
     border: solid 1px black;
     display: flex;
     flex-direction: row;
+}
+
+#featured {
+    width: 1024px;
+    height: 500px;
 }
 
 #contact {
