@@ -119,6 +119,22 @@ ul {
     height: 500px;
 }
 
+/* .writing {
+    height: 300px;
+    width: 256px;
+    border: solid 1px black;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures {
+    height: 300px;
+    width: 256px;
+    border: solid 1px black;
+    background-color: purple;
+} */
+
 #contact {
     width: 960px;
     height: 200px;
