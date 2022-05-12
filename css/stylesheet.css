@@ -16,6 +16,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.AN {
+    font-family: sans-serif;
+}
+
 .header_boxes {
     display: flex;
     flex-direction: row;
