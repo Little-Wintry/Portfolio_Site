@@ -84,7 +84,8 @@ ul {
 #profile_pic {
     height: 300px;
     width: 256px;
-    background-color: aqua;
+    background-color: teal;
+    border: solid 1px black;
     display: flex;
     margin: 20px;
 }
