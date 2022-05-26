@@ -39,6 +39,8 @@ body {
     border: solid 1px #f9cf00;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
 #navbg {
