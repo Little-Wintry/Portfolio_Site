@@ -6,9 +6,6 @@ body {
     width: 100%;
     height: auto;
     background-color: #e6e6e6;
-    display: flex;
-    justify-content: center;
-    align-self: center;
 }
 
 #main_container {
@@ -30,6 +27,24 @@ body {
 .header_boxes {
     display: flex;
     flex-direction: row;
+}
+
+#brown_box {
+    width: 50%;
+    height: 233px;
+    background-color: #774c18;
+    position: absolute;
+    z-index: -9990;
+}
+
+#green_box {
+    width: 100%;
+    height: 233px;
+    background-color: #1b9647;
+    position: absolute;
+    z-index: -9999;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #nav {
