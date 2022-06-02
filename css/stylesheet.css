@@ -56,6 +56,7 @@ body {
     justify-content: center;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 #navbg {
@@ -63,6 +64,7 @@ body {
     height: 70px;
     background-color: #f9cf00;
     border: solid 1px #f9cf00;
+    z-index: 1;
 }
 
 #nav_text {
@@ -228,4 +230,75 @@ ul {
 
 #resume_image {
     margin: 50px;
+}
+
+#dig_art {
+    display: flex;
+    flex-direction: row;
+}
+
+#digital {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#Dracula {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#MagazineTOC {
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 1;
+}
+
+#mag_desc {
+    height: 750px;
+    width: 563px;
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#mag_desc_text {
+    color: #774c18;
+    text-align: center;
+    width: 50%;
+}
+
+#mag_desc:hover {
+    opacity: 1;
+    border: 1px solid #1b9647;
+}
+
+#drac_desc {
+    height: 750px;
+    width: 563px;
+    opacity: 0;
+    position: absolute;
+    transition: .5s ease;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#drac_desc_text {
+    color: #774c18;
+    text-align: center;
+    width: 50%;
+}
+
+#drac_desc:hover {
+    opacity: 1;
+    border: 1px solid #1b9647;
 }
