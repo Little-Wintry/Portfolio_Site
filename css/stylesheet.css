@@ -117,6 +117,7 @@ ul {
     height: 300px;
     width: 256px;
     background-color: teal;
+    background-image: url(../images/pfp.png);
     display: flex;
     margin: 20px;
 }
@@ -226,5 +227,5 @@ ul {
 }
 
 #resume_image {
-    margin-top: 50px;
+    margin: 50px;
 }
