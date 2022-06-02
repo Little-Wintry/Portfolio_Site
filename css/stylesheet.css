@@ -76,6 +76,11 @@ body {
     margin-left: -40px
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 ul {
     list-style-type: none;
 }
@@ -276,7 +281,7 @@ ul {
 
 #mag_desc:hover {
     opacity: 1;
-    border: 1px solid #1b9647;
+    border: 1px solid #f9cf00;
 }
 
 #drac_desc {
@@ -300,5 +305,5 @@ ul {
 
 #drac_desc:hover {
     opacity: 1;
-    border: 1px solid #1b9647;
+    border: 1px solid #f9cf00;
 }
