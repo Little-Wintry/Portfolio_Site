@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:wght@100;200&display=swap');
 
+/* start of general css */
+
 body {
     margin: 0px;
     width: 100%;
@@ -10,7 +12,47 @@ body {
 
 #main_container {
     width: 100%;
-    height: 1850px;
+    height: 1900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_container2 {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_container3 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_container4 {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_container5 {
+    width: 100%;
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_container6 {
+    width: 100%;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +113,7 @@ body {
     width: 1024px;
     display: flex;
     flex-direction: row;
+    color: black;
     justify-content: space-around;
     align-items: center;
     margin-left: -40px
@@ -81,9 +124,23 @@ a {
     color: black;
 }
 
+#n {
+    color: black;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+#n:hover {
+    color: #1b9647;
+}
+
 ul {
     list-style-type: none;
 }
+
+/* end of general css */
+
+/* start of index page css */
 
 #intro {
     width: 1024px;
@@ -101,7 +158,7 @@ ul {
 }
 
 #Intro_Heading {
-    height: 35px;
+    height: 50px;
     width: 660px;
     display: flex;
     justify-content: center;
@@ -117,20 +174,43 @@ ul {
     flex-direction: column;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15pt;
+    padding-right: 35px;
     text-align: center;
 }
 
 #profile_pic {
     height: 300px;
     width: 256px;
-    background-color: teal;
     background-image: url(../images/pfp.png);
+    background-position: center;
+    background-size: 400px;
     display: flex;
     margin: 20px;
 }
 
+#pfp_teaser {
+    height: 300px;
+    width: 256px;
+    background-color: #e6e6e6;
+    margin-top: -3px;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#pfp_teaser:hover {
+    height: 300px;
+    width: 265px;
+    background-color: #e6e6e6;
+    border: 3px solid #f9cf00;
+    opacity: .80;
+}
+
 #featured_writing {
-    width: 1024px;
+    width: 100%;
     height: 350px;
     display: flex;
     justify-content: space-evenly;
@@ -139,27 +219,72 @@ ul {
 
 #fw_title {
     margin-left: -500px;
+    margin-top: 10px;
     font-size: 35pt;
 }
 
 .writing {
     height: 335px;
     width: 300px;
-    background-color: #774c18
+    background-color: #774c18;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #writing1_interior {
     height: 300px;
     width: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e6e6e6;
-    margin: 16px;
+    background-image: url(../images/Writing_Teaser.png);
+    background-position: center;
+    background-size: 300px;
 }
 
 #writing2_interior {
     height: 300px;
     width: 265px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #e6e6e6;
-    margin: 16px;
+    background-image: url(../images/Writing_Teaser2.png);
+    background-position: center;
+    background-size: 300px;
+}
+
+#writing3_interior {
+    height: 300px;
+    width: 265px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e6e6e6;
+    background-image: url(../images/Writing_Teaser3.png);
+    background-position: center;
+    background-size: 300px;
+}
+
+#writing_teaser {
+    height: 300px;
+    width: 265px;
+    background-color: #e6e6e6;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#writing_teaser:hover {
+    height: 300px;
+    width: 265px;
+    background-color: #e6e6e6;
+    opacity: .75;
 }
 
 #fp_title {
@@ -168,7 +293,7 @@ ul {
 }
 
 #featured_photos {
-    width: 1024px;
+    width: 100%;
     height: 350px;
     display: flex;
     justify-content: space-evenly;
@@ -179,20 +304,64 @@ ul {
     height: 335px;
     width: 300px;
     background-color: #774c18;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #pictures1_interior {
     height: 300px;
     width: 265px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #e6e6e6;
-    margin: 16px;
+    background-image: url(../images/MagazineTOC.png);
+    background-position: 0% 50%;
+    background-size: 450px;
 }
 
 #pictures2_interior {
     height: 300px;
     width: 265px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #e6e6e6;
-    margin: 16px;
+    background-image: url(../images/Dracula.png);
+    background-position: 30% 20%;
+    background-size: 400px;
+}
+
+#pictures3_interior {
+    height: 300px;
+    width: 265px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e6e6e6;
+    background-image: url(../images/Experiment2.png);
+    background-position: 93% 50%;
+    background-size: 1000px;
+}
+
+#digital_teaser {
+    height: 300px;
+    width: 265px;
+    background-color: #e6e6e6;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#digital_teaser:hover {
+    height: 300px;
+    width: 265px;
+    background-color: #e6e6e6;
+    opacity: .75;
 }
 
 #contact {
@@ -209,33 +378,146 @@ ul {
     font-size: 15pt;
 }
 
+#contact_text_email {
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15pt;
+}
+
 #contact_header {
     margin-left: 20px;
     font-size: 30pt;
 }
+
+/* end of index css */
+
+/* start of footer css */
 
 #footer {
     height: 180px;
     width: 1024px;
     background-color: #1b9647;
     border: solid 1px #1b9647;
-    margin-bottom: -10000px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+#footerbg {
+    width: 100%;
+    height: 182px;
+    background-color: #1b9647;
+    display: flex;
+    justify-content: center;
 }
 
 .footer_text {
-    margin-left: 20px;
     font-family: 'Josefin Sans', sans-serif;
+    width: 750px;
     font-size: 15pt;
 }
 
+.footer_text2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15pt;
+    color: #e6e6e6;
+}
+
 #footer_header {
-    margin-left: 20px;
+    height: 40px;
     font-size: 30pt;
+    width: 600px;
+}
+
+#owo {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-delay: 1s;
+    transition: 5s ease;
+    opacity: 0;
+    color: black;
+}
+
+#owo:hover {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: black;
+}
+
+/* end of footer css */
+
+/* start of resume css */
+
+#resume_body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #resume_image {
-    margin: 50px;
+    height: 750px;
+    width: 565px;
+    margin-left: 25px;
 }
+
+#resume_buffer {
+    margin-right: 25px;
+    height: 300px;
+    width: 282px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#resume_title {
+    margin-top: 0px;
+}
+
+#resume_text {
+    font-size: 20px;
+}
+
+#shape {
+    display: flex;
+    flex-direction: row;
+}
+
+#trileft {
+    width: 0;
+	height: 0;
+	border-top: 37px solid transparent;
+	border-right: 37px solid #f9cf00;
+	border-bottom: 37px solid transparent;
+}
+
+#rect {
+    height: 75px;
+    width: 750px;
+    background-color: #f9cf00;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#triright {
+    width: 0;
+	height: 0;
+	border-top: 37px solid transparent;
+	border-left: 37px solid #f9cf00;
+	border-bottom: 37px solid transparent;
+}
+
+/* 
+end of resume css */
+
+/* start of digital design css */
 
 #dig_art {
     display: flex;
@@ -246,6 +528,28 @@ ul {
     display: flex;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#dig_art2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#digital2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#dig_art3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#digital3 {
+    display: flex;
+    align-items: center;
     margin-bottom: 50px;
 }
 
@@ -280,13 +584,13 @@ ul {
 }
 
 #mag_desc:hover {
-    opacity: 1;
+    opacity: .8;
     border: 1px solid #f9cf00;
 }
 
 #drac_desc {
     height: 750px;
-    width: 563px;
+    width: 550px;
     opacity: 0;
     position: absolute;
     transition: .5s ease;
@@ -304,6 +608,238 @@ ul {
 }
 
 #drac_desc:hover {
-    opacity: 1;
+    opacity: .8;
     border: 1px solid #f9cf00;
+}
+
+#exp_desc {
+    height: 500px;
+    width: 1150px;
+    opacity: 0;
+    position: absolute;
+    transition: .5s ease;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exp_desc_text {
+    color: #774c18;
+    text-align: center;
+    width: 50%;
+}
+
+#exp_desc:hover {
+    opacity: .8;
+    border: 1px solid #f9cf00;
+}
+
+#Johnny {
+    transition: 1.5s ease-in-out;
+  }
+
+#Johnny:hover {
+    transform: rotate(360deg);
+  }
+
+#JSS_desc {
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+    background-color: #1b9647;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #f9cf00;
+}
+
+#JSS_desc_text {
+    color: #e6e6e6;
+    text-align: center;
+    width: 75%;
+}
+
+/* end of digital design css */
+
+/* 
+start of about me css */
+
+#about_me_title {
+    width: 1000px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
+
+#about_me_main {
+    width: 950px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about_me_body {
+    width: 950px;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+}
+
+#about_me_body2 {
+    width: 900px;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#about_me_pictures {
+    width: 100%;
+    height: 445px;
+    margin: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#p1 {
+    height: 445px;
+    width: 300px;
+}
+
+#p2 {
+    height: 445px;
+    width: 300px;
+}
+
+#p3 {
+    height: 445px;
+    width: 350px;
+}
+
+#caption {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #774c18;
+    color: #e6e6e6;
+    width: 1000px;
+    text-align: center;
+}
+
+#contact2 {
+    width: 960px;
+    height: 350px;
+    background-color: #f9cf00;
+    margin: 32px;
+    border: solid 1px #f9cf00;
+}
+
+#contact_text2 {
+    margin: 10px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15pt;
+}
+
+.contact_text2 {
+    margin: 10px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15pt;
+}
+
+#c {
+    color: black;
+}
+
+#c:hover {
+    color: #1b9647;
+    transition: .3s ease;
+}
+
+#contact_text_small {
+    margin: 10px;
+    margin-left: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12pt;
+}
+
+/* end of about me css */
+
+/* start of writing css */
+
+#writing_main {
+    width: 1000px;
+    height: 120px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#writing_title {
+    color: #e6e6e6;
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#TH {
+    width: 100%;
+    height: 650px;
+    background-color: #774c18;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Unbr {
+    width: 100%;
+    height: 650px;
+    background-color: #774c18;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TTODB {
+    width: 100%;
+    height: 650px;
+    background-color: #774c18;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#writing_desc {
+    width: 950px;
+    text-align: center;
+    color: #e6e6e6;
+    font-size: 17px;
+}
+/* 
+end of writing css */
+
+/* start of secret css */
+
+#secret_div {
+    width: 1024px;
+    text-align: center;
+}
+
+#secret_list {
+    width: 1000px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
